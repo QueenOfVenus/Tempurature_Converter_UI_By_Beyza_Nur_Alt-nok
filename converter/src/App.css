@@ -1,0 +1,82 @@
+body {
+  /* background-color:; */
+  background: url("./2.png") center center fixed rgba(226, 208, 230, 0.966); 
+  align-items: center;
+  background-size: cover;
+
+}
+
+.baslik {
+  margin: 50px 20px;
+  font-size: 80px;
+  text-align: center;
+
+}
+
+/* .contain {
+  background-color: blueviolet;
+
+} */
+
+label  {
+  width: 100%;
+  text-align: center;
+}
+
+.c {
+  width: 1183px;
+  margin-top: 10px;
+  padding: 13px 50px;
+  font-size: x-large;
+
+}
+
+input {
+  background-color: rgba(240, 248, 255, 0.514);
+  border: 3px solid #968b8b94;
+  inline-size:none; 
+  text-align: center;
+  
+}
+
+
+
+input[type=text]:focus {
+  background-color: rgba(103, 167, 223, 0.356);
+  border: 3px solid rgba(103, 167, 223, 0.356);
+  outline: none;
+}
+
+
+/* input[type=text]:focus {
+  font-size: x-large;
+  text-align: center;
+  background-color: rgba(91, 52, 234, 0.681);
+  border: none;
+  outline: none;
+  margin: 1px;
+  
+} */
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 13px 50px;
+  font-size: x-large;
+  border: none;
+  background-color:#662D91;
+  
+}
+
+button:hover {
+  background-color:#F0EC46;
+  box-shadow: inset;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 5px;
+}
+
+
+
